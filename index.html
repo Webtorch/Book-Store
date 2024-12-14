@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Book Store Landing Page" />
+    <meta name="author" content="Kagitha Jhansi Pavan Sai" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/images/book.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- owl -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl -->
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="bg-hero sticky-top shadow-sm">
+      <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+            <i class="bi bi-book-half fs-1 text-cl pe-1"></i>Book Store</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-medium"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#">Our Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#">Contact us</a>
+              </li>
+            </ul>
+            <button
+              class="btn btn-cl text-white rounded-pill px-4 py-2 ms-lg-3"
+              type="submit"
+            >
+              Sign in
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <main class="overflow-x-hidden">
+      <!-- hero section -->
+      <section class="bg-hero pb-5 pt-5">
+        <div class="container pb-5">
+          <div class="row">
+            <div
+              class="cl-12 col-sm-12 col-md-12 col-lg-7 col-xxl-6 my-md-auto"
+            >
+              <div class="main-text">
+                <h1 class="fw-bolder lh-sm display-3">
+                  The <span class="span-cl">Smart</span>
+                  <br class="d-none d-lg-block" />
+                  Choice For <span class="span-cl">Future</span>
+                </h1>
+                <p class="sub-texts">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  sunt rerum quae vitae repudiandae vel. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Nostrum.
+                </p>
+                <div class="input-group mb-3 bg-white rounded-pill p-2">
+                  <span
+                    class="input-group-text bg-white border-0"
+                    id="basic-addon1"
+                    ><i class="bi bi-search fw-bolder text-dark"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control bg-white border-0"
+                    placeholder="Search for a location..."
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                  <span
+                    class="input-group-text btn-cl rounded-pill ms-1 border-0 text-white py-2"
+                    >Continue</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cl-12 col-sm-12 col-md-12 col-lg-5 col-xxl-6">
+              <img
+                src="./assets/images/hero-main.png"
+                alt="hero-img "
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-n1">
+        <!-- steps -->
+        <div class="container">
+          <div class="card btn-cl py-4">
+            <div class="card-body">
+              <div class="row">
+                <!-- 1 box -->
+                <div class="col-12 c col-md-6 col-lg-6 col-xxl-4">
+                  <div class="inner-box d-lg-flex">
+                    <div class="row">
+                      <div class="col-12 col-lg-4 my-md-auto">
+                        <div class="img-s bg-glass p-3">
+                          <img
+                            src="./assets/images/software.png"
+                            alt="skill"
+                            class="img-fluid rounded-4"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8">
+                        <div class="description text-white">
+                          <h4>Learn The Latest Skills</h4>
+                          <p class="sub-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Nobis aliquam iusto
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 1 box -->
+                <!-- 2 box -->
+                <div class="col-12 c col-md-6 col-lg-6 col-xxl-4">
+                  <div class="inner-box d-lg-flex">
+                    <div class="row">
+                      <div class="col-12 col-lg-4 my-md-auto">
+                        <div class="img-s bg-glass p-3">
+                          <img
+                            src="./assets/images/take-note.png"
+                            alt="skill"
+                            class="img-fluid rounded-4"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8">
+                        <div class="description text-white">
+                          <h4>Get Ready For a Carrer</h4>
+                          <p class="sub-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Nobis aliquam iusto
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2 box -->
+                <!-- 3 box -->
+                <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+                  <div class="inner-box d-lg-flex">
+                    <div class="row">
+                      <div class="col-12 col-lg-4 my-md-auto">
+                        <div class="img-s bg-glass p-3">
+                          <img
+                            src="./assets/images/certification.png"
+                            alt="skill"
+                            class="img-fluid rounded-4"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8">
+                        <div class="description text-white">
+                          <h4>Earn a Certificate</h4>
+                          <p class="sub-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Nobis aliquam iusto
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 3box -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- steps -->
+      </section>
+      <!-- hero section -->
+      <!-- our track -->
+      <section class="pb-5 pt-5 mb-3">
+        <div class="container">
+          <div class="titles text-center">
+            <h2 class="fw-bold">Our Tracks</h2>
+            <p class="sub-texts">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <div class="row g-5">
+            <!-- 1 -->
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+              <div class="card rounded-4 border-0 bg-white shadow-sm pb-3">
+                <div class="card-body">
+                  <div class="card-img-top">
+                    <img
+                      src="./assets/images/ui.jpg"
+                      alt="ui"
+                      class="img-fluid rounded-4 card-img"
+                    />
+                  </div>
+                  <div class="description dt-border pt-2">
+                    <div class="d-lg-flex justify-content-between">
+                      <div class="data">
+                        <p class="mb-0 sub-texts fs-15">UI/UX Design</p>
+                        <h5>UI/UX Design for Beginners</h5>
+                        <p class="mb-1 text-org fw-bold">₹ 999</p>
+                      </div>
+                      <div class="starts">
+                        <ul class="nav gap-1">
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-half star"></i></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats pt-3">
+                    <ul class="nav gap-2 gap-lg-3">
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-clock text-dark"></i>
+                          <span>22hr 30min</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-camera-video text-dark"></i>
+                          <span>34 Courses</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-download text-dark"></i>
+                          <span>250 Sales</span></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="card-footer border-0 bg-tra position-absolute top-100 start-50 translate-middle"
+                >
+                  <button
+                    class="btn btn-org rounded-pill px-4 py-2 text-white w-max"
+                    type="button"
+                  >
+                    Join Course
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <!-- 2 -->
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+              <div class="card rounded-4 border-0 bg-white shadow-sm pb-3">
+                <div class="card-body">
+                  <div class="card-img-top">
+                    <img
+                      src="./assets/images/ui.jpg"
+                      alt="ui"
+                      class="img-fluid rounded-4 card-img"
+                    />
+                  </div>
+                  <div class="description dt-border pt-2">
+                    <div class="d-lg-flex justify-content-between">
+                      <div class="data">
+                        <p class="mb-0 sub-texts fs-15">UI/UX Design</p>
+                        <h5>UI/UX Design for Beginners</h5>
+                        <p class="mb-1 text-org fw-bold">₹ 999</p>
+                      </div>
+                      <div class="starts">
+                        <ul class="nav gap-1">
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-half star"></i></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats pt-3">
+                    <ul class="nav gap-2 gap-lg-3">
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-clock text-dark"></i>
+                          <span>22hr 30min</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-camera-video text-dark"></i>
+                          <span>34 Courses</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-download text-dark"></i>
+                          <span>250 Sales</span></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="card-footer border-0 bg-tra position-absolute top-100 start-50 translate-middle"
+                >
+                  <button
+                    class="btn btn-org rounded-pill px-4 py-2 text-white w-max"
+                    type="button"
+                  >
+                    Join Course
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <!-- 3 -->
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+              <div class="card rounded-4 border-0 bg-white shadow-sm pb-3">
+                <div class="card-body">
+                  <div class="card-img-top">
+                    <img
+                      src="./assets/images/ui.jpg"
+                      alt="ui"
+                      class="img-fluid rounded-4 card-img"
+                    />
+                  </div>
+                  <div class="description dt-border pt-2">
+                    <div class="d-lg-flex justify-content-between">
+                      <div class="data">
+                        <p class="mb-0 sub-texts fs-15">UI/UX Design</p>
+                        <h5>UI/UX Design for Beginners</h5>
+                        <p class="mb-1 text-org fw-bold">₹ 999</p>
+                      </div>
+                      <div class="starts">
+                        <ul class="nav gap-1">
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-fill star"></i></li>
+                          <li><i class="bi bi-star-half star"></i></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats pt-3">
+                    <ul class="nav gap-2 gap-lg-3">
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-clock text-dark"></i>
+                          <span>22hr 30min</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-camera-video text-dark"></i>
+                          <span>34 Courses</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="sub-texts fs-15"
+                          ><i class="bi bi-download text-dark"></i>
+                          <span>250 Sales</span></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="card-footer border-0 bg-tra position-absolute top-100 start-50 translate-middle"
+                >
+                  <button
+                    class="btn btn-org rounded-pill px-4 py-2 text-white w-max"
+                    type="button"
+                  >
+                    Join Course
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+          </div>
+        </div>
+      </section>
+      <!-- our track -->
+      <!-- premium learning -->
+      <section class="bg-hero py-5">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-md-12 col-lg-6 col-xxl-5">
+              <img
+                src="./assets/images/pri-img.png"
+                alt="premium learning"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 col-xxl-7">
+              <div class="description">
+                <h1 class="fw-bolder lh-sm display-3">
+                  Premium <span class="span-cl">Learning</span>
+                  <br class="d-none d-lg-block" />
+                  Experience
+                </h1>
+
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-12">
+                    <div class="row">
+                      <div class="col-12 col-lg-3 col-xxl-2">
+                        <div class="img-s bg-glass p-3">
+                          <img
+                            src="./assets/images/jigsaw.png"
+                            alt="skill"
+                            class="img-fluid rounded-4 btn-cl"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-9 col-xxl-10 my-md-auto">
+                        <div class="description">
+                          <h4>Fun learning expe</h4>
+                          <p class="sub-texts">
+                            Learning Will fell Very Comfortable With Courslab
+                          </p>
+                        </div>
+                      </div>
+                      <!-- s -->
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-12">
+                    <div class="row">
+                      <div class="col-12 col-lg-3 col-xxl-2">
+                        <div class="img-s bg-glass p-3">
+                          <img
+                            src="./assets/images/hearts.png"
+                            alt="skill"
+                            class="img-fluid rounded-4 btn-cl"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-9 col-xxl-10 my-md-auto">
+                        <div class="description">
+                          <h4>Easily Accessible</h4>
+                          <p class="sub-texts">
+                            Learning Will fell Very Comfortable With Courslab
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- premium learning -->
+      <!-- students say -->
+      <section class="py-5">
+        <div class="container">
+          <div class="titles text-center">
+            <h2 class="fw-bold">What Student's Say</h2>
+            <p class="sub-texts">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="owl-carousel">
+            <!-- 1 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <!-- 2 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <!-- 3 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <!-- 4 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <!-- 5 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <!-- 6 -->
+            <div class="item my-3">
+              <div class="card bg-white border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="description">
+                    <p>
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ducimus commodi ipsa officia omnis itaque numquam quis at
+                      natus distinctio quia! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aperiam inventore,
+                      blanditiis dicta natus aliquid ducimus doloremque
+                      veritatis nemo illum harum.
+                    </p>
+                    <div class="users d-flex align-items-center gap-2">
+                      <div class="user-imges">
+                        <img
+                          src="./assets/images/user.jpg"
+                          alt="user"
+                          class="img-fluid user-img"
+                        />
+                      </div>
+                      <div class="user-names">
+                        <h6 class="mb-0">Finlay kirk</h6>
+                        <p class="mb-0">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+          </div>
+        </div>
+      </section>
+      <!-- students say -->
+
+      <!-- our team -->
+      <section class="py-5">
+        <div class="container">
+          <div class="titles text-center">
+            <h2 class="fw-bold">Our Tracks</h2>
+            <p class="sub-texts">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <!-- cards -->
+          <div class="row g-3">
+            <!-- 1 -->
+            <div class="col-12 col-sm-12 col-md-6 col-xxl-4">
+              <div class="card rounded-3">
+                <div class="card-body p-3">
+                  <div class="user-imagess">
+                    <img
+                      src="./assets/images/user-2.jpg"
+                      alt="user"
+                      class="img-fluid card-img object-fit-cover cimg w-100 rounded-3"
+                    />
+                  </div>
+                  <div class="card-description pt-3">
+                    <h5 class="mb-0">Matthew E.McNatt</h5>
+                    <p class="mb-1 sub-ip">Professor @MIT</p>
+                    <p class="sub-texts">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Quis perferendis perspiciatis dolores
+                    </p>
+
+                    <div
+                      class="postions d-flex flex-wrap gap-2 justify-content-between align-items-center"
+                    >
+                      <div>
+                        <p class="text-org fw-medium mb-0">
+                          Engineering Physics
+                        </p>
+                      </div>
+                      <div>
+                        <ul class="nav gap-3">
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/instagram.png"
+                              alt="insta"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/linkedin.png"
+                              alt="linkedin"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <!-- 2 -->
+            <div class="col-12 col-sm-12 col-md-6 col-xxl-4">
+              <div class="card rounded-3">
+                <div class="card-body p-3">
+                  <div class="user-imagess">
+                    <img
+                      src="./assets/images/user-2.jpg"
+                      alt="user"
+                      class="img-fluid card-img object-fit-cover cimg w-100 rounded-3"
+                    />
+                  </div>
+                  <div class="card-description pt-3">
+                    <h5 class="mb-0">Matthew E.McNatt</h5>
+                    <p class="mb-1 sub-ip">Professor @MIT</p>
+                    <p class="sub-texts">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Quis perferendis perspiciatis dolores
+                    </p>
+
+                    <div
+                      class="postions d-flex flex-wrap gap-2 justify-content-between align-items-center"
+                    >
+                      <div>
+                        <p class="text-org fw-medium mb-0">
+                          Engineering Physics
+                        </p>
+                      </div>
+                      <div>
+                        <ul class="nav gap-3">
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/instagram.png"
+                              alt="insta"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/linkedin.png"
+                              alt="linkedin"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <!-- 3 -->
+            <div class="col-12 col-sm-12 col-md-6 col-xxl-4">
+              <div class="card rounded-3">
+                <div class="card-body p-3">
+                  <div class="user-imagess">
+                    <img
+                      src="./assets/images/user-2.jpg"
+                      alt="user"
+                      class="img-fluid card-img object-fit-cover cimg w-100 rounded-3"
+                    />
+                  </div>
+                  <div class="card-description pt-3">
+                    <h5 class="mb-0">Matthew E.McNatt</h5>
+                    <p class="mb-1 sub-ip">Professor @MIT</p>
+                    <p class="sub-texts">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Quis perferendis perspiciatis dolores
+                    </p>
+
+                    <div
+                      class="postions d-flex flex-wrap gap-2 justify-content-between align-items-center"
+                    >
+                      <div>
+                        <p class="text-org fw-medium mb-0">
+                          Engineering Physics
+                        </p>
+                      </div>
+                      <div>
+                        <ul class="nav gap-3">
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/instagram.png"
+                              alt="insta"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                          <li class="sc-main">
+                            <img
+                              src="./assets/images/linkedin.png"
+                              alt="linkedin"
+                              class="img-fluid sc-icon"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+          </div>
+          <!-- cards -->
+        </div>
+      </section>
+      <!-- our team -->
+      <!-- subscribe -->
+      <section class="py-5">
+        <div class="container">
+          <div class="card btn-cl text-center py-4">
+            <div class="card-body">
+              <div class="titles">
+                <h2 class="mb-0 text-white">Subscribe to our newsletter</h2>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur
+                </p>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-5">
+                  <div class="input-group mb-3 bg-white rounded-pill p-2">
+                    <input
+                      type="text"
+                      class="form-control bg-white border-0"
+                      placeholder="Email Address"
+                      aria-label="Username"
+                    />
+                    <span
+                      type="button"
+                      class="input-group-text btn-org rounded-pill ms-1 border-0 text-white py-2 px-4"
+                      >Send</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe -->
+      <!-- footer -->
+      <footer class="pt-5 pb-3 bg-hero">
+        <div class="container py-3">
+          <div class="row g-4">
+            <div class="col-12 col-xxl-3">
+              <div class="ft-titles">
+                <h5 class="fw-bold d-flex align-items-center">
+                  <i class="bi bi-book-half fs-1 text-cl pe-1"></i>Book Store
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptates, incidunt. Ratione facilis consequatur in quis.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ft-inner-links">
+                <h5>Company</h5>
+                <ul class="nav gap-2 flex-column">
+                  <li>About Us</li>
+                  <li>How to work?</li>
+                  <li>Populer Course</li>
+                  <li>Service</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ft-inner-links">
+                <h5>Courses</h5>
+                <ul class="nav gap-2 flex-column">
+                  <li>Categories</li>
+                  <li>Ofline Course</li>
+                  <li>Video Course</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ft-inner-links">
+                <h5>Support</h5>
+                <ul class="nav gap-2 flex-column">
+                  <li>FAQ</li>
+                  <li>Help Center</li>
+                  <li>Career</li>
+                  <li>Privacy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ft-inner-links">
+                <h5>Contact Info</h5>
+                <ul class="nav gap-2 flex-column">
+                  <li>+9100000000000</li>
+                  <li>Examplename@gmail.com</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="mb-0 text-center">BookStore All Right Reserved, 2024</p>
+      </footer>
+      <!-- footer -->
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        dots: true,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
